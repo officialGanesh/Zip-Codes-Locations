@@ -4,3 +4,23 @@
     font-family: 'Roboto mono',monospace;
     text-align: center;
 }
+
+#details{
+    margin-top: 3rem;
+}
+
+#title{
+
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+}
+
+.form{
+    border-radius: 1.2rem;
+}
+
+#check{
+    
+    border-radius: 1.2rem;
+}
