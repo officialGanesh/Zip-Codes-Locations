@@ -19,7 +19,32 @@
     
 </head>
 <body>
-    <h1>ZipCodes</h1>
+
+    <div class="container mt-4" style="max-width: 57rem;">
+        <h1 id="title">ZipCode-Locations 🔥</h1>
+
+        <!-- !Various Countries -->
+        <div>
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option selected>Select Country</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+
+        <!-- Enter zip code -->
+        
+        <div> 
+            <input class="form-control form-control-lg my-3" type="number" placeholder="Enter Zip-code" aria-label=".form-control-lg example">   
+        </div>
+
+        <div class="d-grid gap-2">
+            <button class="btn alert-success" type="submit"><h4>Check</h4></button>
+        </div>
+
+    </div>
+
 </body>
 <!-- !Javascript -->
 <script src="/zipCodes.js"></script>
