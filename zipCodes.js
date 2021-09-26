@@ -65,14 +65,14 @@ checkBtn.addEventListener('click',(e)=>{
 
             let box = document.querySelector('#box');
             
-            box.innerHTML = `<div class="card text-center" style="border:2px solid black; border-radius:10px;">
+            box.innerHTML = `<div class="card text-center alert-danger" style="border:2px solid black; border-radius:10px;">
             <div class="card-header">
               ${data['country']}(${data['country abbreviation']})
             </div>
             <div class="card-body">
               <h5 class="card-title">${data.places[0]['place name']},${data.places[0]['state']}(${data.places[0]['state abbreviation']})</h5>
               <p class="card-text">Longitude: ${data.places[0].longitude}  Latitude: ${data.places[0].latitude}</p>
-              <a href="#" class="btn btn-primary">Check Maps</a>
+              
             </div>
             
           </div>`
